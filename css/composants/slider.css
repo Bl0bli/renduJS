@@ -1,0 +1,9 @@
+#slider {
+position:relative;
+}
+
+
+#elementSlider {
+    width: 100%;
+    position: absolute;
+}

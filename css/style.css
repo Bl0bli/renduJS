@@ -1,0 +1,103 @@
+@import url(composants/button.css);
+@import url(composants/avatar.css);
+@import url(composants/container.css);
+@import url(composants/navbar.css);
+@import url(composants/banner.css);
+@import url(composants/popup.css);
+@import url(composants/carousel-bootstrap.css);
+@import url(composants/jv.css);
+
+
+.dark {
+    background-color: black;
+    }
+    
+    .light {
+        background-color: aliceblue;
+    }
+
+ body {
+    margin: 0;
+    font-size: 16px;
+    background-color: #2c2f33;
+    transition: ease-out 2s;
+}
+
+body.light {
+    background-color: aliceblue;
+    transition: ease-out 2s;
+}
+
+.body-2 {
+    background-color: aliceblue;
+}
+.body-yo {
+    background-color: #2c2f33;
+}
+main {
+    padding: 5%;
+    padding-top: 2%;
+    margin-top: 1rem;
+    text-align: justify;
+    font-size: 120%;
+}
+
+* {
+    font-family: 'Work Sans';
+}
+
+
+
+
+@media screen and (max-width:1399px) { 
+ main {
+    font-size: 60%;
+    font-weight: 900;
+ }
+
+ 
+.ban-txt {
+    margin-top: 5%;
+   font-size: 60%;
+   color: aliceblue;
+   }
+
+
+.ban-title{
+    margin-top: 10%;
+    font-size: 100%;
+    color: aliceblue;
+   }
+.baniere {
+    height: 100%;
+}
+
+
+.navbar-icon-yo {
+    font-size: 100%;
+    min-width: 50%;
+    margin: 0 50%;
+}
+
+.logo-yo {
+    width:20% ;
+}
+
+.navbar-yo:hover .logo-yo .navbar-icon-yo {
+    width: 20%;
+    transform:rotate(360deg);
+
+  }  
+
+  .navbar-yo:hover  .navbar-icon-yo {
+    position: relative;
+    right: 50%;
+  }
+
+.title-navbar {
+    font-size:80%;
+    position: relative;
+    right: 100%;
+  }
+
+}

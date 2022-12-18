@@ -1,0 +1,31 @@
+.card-paysage-jv{
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    background-color: #948cc4;
+    height: 90%;
+    border-radius: 5%;
+    padding:5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.txt-p-jv{
+    font-size: 125%;
+}
+
+.contenu-jv {
+    display: flex;
+    flex-direction: row;
+    background-color: #7289da;
+    width: 90%;
+    padding: 5%;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.image-jv-1{
+    width: 20%;
+    border-radius:10% ;
+   margin-right:  20%;
+}

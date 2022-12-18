@@ -1,0 +1,87 @@
+:root {
+    --navbar-background-color: #99aab5;
+    --navbar-item-hovered-color:white;
+    --navbar-separator-color:#99aab5;
+    --navbar-icon-color:#646c79;
+    --navbar-text-color:black;
+    --navbar-transition-speed: .2s;
+    --primary-color:#7C4DFF;
+    --navbar-logo-background-color:#99aab5;
+  }
+
+  .navbar-yo {
+    width:33%;
+    position:fixed;
+    top:0px;
+    left:0px;
+    right: 0px;
+    background:var(--navbar-background-color);
+    border-radius: 5%;
+    box-shadow: rgba(12,43, 30, 0.2) 0 4px 14px;
+    transition: width var(--navbar-transition-speed) ease;
+  }
+
+  .navbar-yo:hover {
+    width:100%;
+  }
+
+.menu-yo{
+    list-style: none;
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction:row ;
+    height:100%;
+  }
+
+.button-navbar-yo {
+    width: 50%;
+    transition: background-color var(--navbar-transition-speed);
+  }
+
+.button-navbar-yo:hover {
+    background-color:var(--navbar-item-hovered-color);
+}
+
+.link-navbar-yo {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    height:5rem;
+    width:100%;
+    text-decoration: none;
+  }
+
+.navbar-icon-yo{
+    text-align: center;
+    font-size: 1.5rem;
+    min-width: 2rem;
+    margin: 0 1.5rem;
+    color:var(--navbar-icon-color);
+    transition:var(--navbar-transition-speed);
+  }
+
+  .button-navbar-yo:hover .navbar-icon-yo{
+  color:var(--primary-color);
+}
+
+.navbar-yo:not(:hover) .title-navbar {
+display : none;
+}
+
+.logo-yo {
+  width: 5rem;
+    background:var(--navbar-logo-background-color);
+    display: flex;
+    flex-direction: row;
+  }
+  .logo-yo .title-navbar {
+    font-size:1.5rem;
+    font-weight:bold;
+    margin-left:1.5rem;
+  }
+  
+  .navbar-yo:hover .logo-yo .navbar-icon-yo {
+    transform:rotate(360deg);
+    
+  }  

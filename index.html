@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/71bfbd438d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+
+</head>
+
+
+
+<body class="body-yo">
+    <div class="baniere">
+        <h1 class="ban-title">Port folio</h1>
+        <p class="ban-txt">Voici mon port folio 
+            <br> Vous y trouverez l'intégralité de mes projets au sein de l'IIM.
+            <br> Les projets sont classés par Axe, jeux videos, creation et design, 3D, CDEB, et enfin coding.
+            <br> Je suis en A1 et j'aspire à devenir dev de jv, donc je souhaite intégrer 
+            <br> l'axe jeux-video.
+            <br> INFORMATIONS IMPORTANTES : Le porte folio en ligne sera mis à jour à chaque projets réalisés.
+        </p>
+        <div class="inf"></div>
+    </div>
+
+    <nav class="navbar-yo">
+        <ul class="menu-yo">
+            <li class="button-navbar-yo logo-yo">
+                <div href="?" class ="link-navbar-yo">
+                <img id="pinpin" class=" navbar-icon-yo" src="asset/images/pinguin2"> <!--icone du premier item -->
+                </div>
+            </li>    
+
+            <li class="button-navbar-yo">
+                <a href="index.html" class ="link-navbar-yo">
+                 <i class="fa-solid fa-house navbar-icon-yo"></i>  <!--icone du premier item -->
+                <span class="title-navbar">MENU</span>
+                </a>
+            </li>    
+
+            <li class="button-navbar-yo">
+                <a href="?" class ="link-navbar-yo">
+                 <i class="fa-solid fa-phone navbar-icon-yo"></i>  <!--icone du deuxieme item -->
+                <span class="title-navbar">CONTACT</span>
+                </a>
+            </li>  
+
+            <li class="button-navbar-yo">
+                <a href="?" class ="link-navbar-yo">
+                <i class="fa-solid fa-paper-plane navbar-icon-yo"></i>  <!--icone du troisieme item -->
+                <span class="title-navbar">SHARE</span>
+                </a>
+            </li>  
+
+            <li class="button-navbar-yo">
+                <a href="#popup" class ="link-navbar-yo">
+                <i class="fa-solid fa-lightbulb navbar-icon-yo"></i> <!--icone du quatrieme item -->
+                <span class="title-navbar">IDEA</span>
+                </a>
+            </li>  
+
+            <li class="button-navbar-yo">
+                <div href="?" class ="link-navbar-yo">
+                <i id="infos" class="fa-solid fa-circle-info navbar-icon-yo"></i>  <!--icone du cinquieme item -->
+                <span class="title-navbar">INFOS</span>
+                </div>
+            </li>  
+                
+
+                
+                
+         </ul>
+
+         <div id="popup" class="overlay">
+            <div class="popo">
+                <h2>Avez-vous des suggestions ?</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="cont">
+                    <form method="post" action="traitement.php">
+                        <p>
+                            <label for="ameliorer">Vos idées me permettront d'améliorer le site, n'hésitez pas !</label><br />
+                            <textarea name="ameliorer" id="ameliorer"></textarea>
+                        </p>
+                        <input type="submit" value="Envoyer" />
+                     </form>
+            </div>
+         </div>
+    </div>
+    </nav>
+
+
+    <main>
+        <section class="cardbox1">
+
+        <div class="my-card">
+            <img class="image-card" src="asset/images/code.png">
+            <h2 class="card-title" >Axe : CODING</h2>
+            <p class="txt">Pour le moment, je n'ai réalisé qu'un seul projet, qui est ce site web, représentant mon porte folio en ligne. Si vous souhaitez en savoir plus cliquez sur le bouton ci dessous. Vous retrouverez sur sa page une description complète de mon projet.</p>
+            <button class="button-card" 
+             type="button"><a href="coding.html">Voir plus</a>
+            </button>
+        </div>
+
+        <div class="my-card">
+            <img class="image-card" src="asset/images/scene zelda.png">
+            <h2 class="card-title" >Axe : 3D</h2>
+            <p class="txt">Vous retrouverez ici, l'intégralité de mes projets en 3D. Actuellement, j'ai réalisé une pièce de taverne style cartoon, contenant le bouclier et l'épée de Link. J'ai aussi réalisé "Lumière", une bougie vivante du film disney "La Belle et la Bête". Si vous souhaitez en savoir plus cliquez sur le bouton ci dessous. Vous retrouverez sur sa page une description complète de mes projets.</p>
+            <button class="button-card"
+            type="button"><a href="3d.html">Voir plus</a>
+           </button>
+        </div>
+    </section>
+
+
+
+    <div class="card-paysage">
+        <img class="image-card-p" src="asset/images/jv.png">
+        <div class ="card-content">
+        <h2 class="card-title-p" >Axe : JEUX-VIDEO</h2>
+        <p class="txt-p">L'axe jeux-vidéo est celui dans lequel je compte me spécialiser. Vosu retrouverez sur la page une descritpion complète concernant l'évolution de la conception de mon premier jeux vidéo platformer sur PC. Si vous souhaitez en savoir plus cliquez sur le bouton ci dessous. Vous retrouverez sur sa page une description complète de mes projets.</p>
+        <button class="button-card-p"
+        type="button"><a href="jv.html">Voir plus</a>
+         </button>
+        </div>
+     </div>
+
+
+
+    <section class="cardbox2">
+        <div class="my-card">
+            <img class="image-carda" src="asset/images/album.png">
+            <h2 class="card-title" >CREATION & DESIGN</h2>
+            <p class="txt">Cette partie contient une présentation de mes projets en création et design. Actuellement, vous pourrez découvrir mon 1er projet sur Photoshop qui consistait à concevoir une pochette d'album. Si vous souhaitez en savoir plus cliquez sur le bouton ci dessous. Vous retrouverez sur sa page une description complète de mes projets.</p>
+            <button class="button-card"
+            type="button"><a href="creadesign.html">Voir plus</a>
+           </button>
+        </div>
+
+        <div class=" my-card">
+            <img class="image-card" src="asset/images/market.png">
+            <h2 class="card-title" >Axe : CDEB</h2>
+            <p class="txt"> Pour l'axe CDEB, j'ai pu réalisé une étude de marché (marketing) sur une marque de soda "Dr Pepper". VOus y retrouverez quelques images de mon Etude. Ainsi que le fichier de mon diaporama à télécharger. Si vous souhaitez en savoir plus cliquez sur le bouton ci dessous. Vous retrouverez sur sa page une description complète de mes projets. </p>
+            <button class="button-card"
+            type="button"> <a href="cdeb.html">Voir plus</a>
+           </button>
+        </div>
+
+    </section>
+    
+
+
+    </main>
+
+
+
+
+      <!--   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="asset/images/bench.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="asset/images/lum.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img  src="asset/images/pinpin.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>--> 
+<div id="contanimation">
+    <div id="card1" class="kard"></div>
+    <div id="card2" class="kard"></div>
+    <div id="card3" class="kard"></div>
+    <div id="card4" class="kard"></div>
+    <div id="card5" class="kard"></div>  </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
